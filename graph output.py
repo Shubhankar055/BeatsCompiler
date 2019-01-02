@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import numpy
+import numpy as np
 import librosa, librosa.display
 y, sr = librosa.load('Simple-drum-loop-116-bpm.wav') 
 beat_times = librosa.beat.beat_track(x, sr=sr, start_bpm=120, units='time')
